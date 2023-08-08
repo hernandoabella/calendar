@@ -14,11 +14,6 @@
   --calendar-prevnext-date-color: #484848;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
 .calendar {
   font-family: "IBM Plex Sans", sans-serif;
   position: relative;
