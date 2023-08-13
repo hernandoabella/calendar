@@ -4,11 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calendario</title>
+    <title>Calendario 📅</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css"
+    />
   </head>
   <body>
-    <div class="calendar"></div>
+    <div class="calendar">
+      <div class="calendar-header">
+        <button id="prevMonth">&#10094;</button>
+        <h2 id="currentMonthYear">Agosto 2023</h2>
+        <button id="nextMonth">&#10095;</button>
+      </div>
+      <div class="calendar-weekdays">
+        <div class="weekday">Dom</div>
+        <div class="weekday">Lun</div>
+        <div class="weekday">Mar</div>
+        <div class="weekday">Mié</div>
+        <div class="weekday">Jue</div>
+        <div class="weekday">Vie</div>
+        <div class="weekday">Sáb</div>
+      </div>
+      <div class="calendar-days" id="calendarDays"></div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
