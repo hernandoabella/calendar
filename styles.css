@@ -14,14 +14,19 @@
   --calendar-prevnext-date-color: #484848;
 }
 
+body {
+  background-image: linear-gradient(135deg, #3c8ce7 10%, #00eaff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .calendar {
   font-family: "IBM Plex Sans", sans-serif;
   position: relative;
-  max-width: 400px; /*change as per your design need */
-  min-width: 320px;
   background: var(--calendar-bg-color);
   color: var(--calendar-font-color);
-  margin: 20px auto;
   box-sizing: border-box;
   overflow: hidden;
   font-weight: normal;
@@ -39,7 +44,6 @@
 }
 
 .calendar .calendar-inner .calendar-body div {
-  padding: 4px;
   min-height: 30px;
   line-height: 30px;
   border: 1px solid transparent;
